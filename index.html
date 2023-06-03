@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    
+  <link rel="stylesheet" href="assets/index.197059c6.css">
+</head>
+<body>
+    <nav class="navbar bg-black text-white">
+        <ul class="list-none py-2 px-3 text-lg">
+            <li class="cursor-pointer">TicTacToe.Com</li>
+        </ul>
+    </nav>
+    <div class="container flex justify-center mt-12">
+        <div class="gamecontainer grid grid-cols-[repeat(3,10vw)] grid-rows-[repeat(3,10vw)] text-[7vw] text-center">
+            <div class="gamebox border-2 border-black border-l-0 border-t-0 cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="gamebox border-2 border-black border-t-0 cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="gamebox border-2 border-black border-t-0 border-r-0 cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="gamebox border-2 border-black border-l-0 cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="gamebox border-2 border-black cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="gamebox border-2 border-black border-r-0 cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="gamebox border-2 border-black border-b-0 border-l-0 cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="gamebox border-2 border-black border-b-0 cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+            <div class="gamebox border-2 border-black border-b-0 border-r-0 cursor-pointer hover:bg-purple-200"><span class="boxtext"></span></div>
+        </div>
+        <div class="gameinfo ml-12">
+            <h2 class="text-3xl">Welcome To Tic Tac Toe Game</h2>
+            <span class="turn"></span>
+            <button id="btn" class="px-3 py-1 bg-slate-200 rounded-lg mx-3 my-3">Reset</button>
+            <div class="imgbox">
+                <img src="assets/excited.342d1b69.gif" class="w-0 ease-in-out transition">
+            </div>
+        </div>
+    </div>
+    <script src="assets/index.91c8f81d.js"></script>
+</body>
+
+</html>
